@@ -79,3 +79,34 @@ body {
     width: 550px;
     height: 250px;
 }
+
+.information {
+    color: #1F2937;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.information h2 {
+    font-size: 36px;
+    font-weight: 900;
+    margin: 48px 0;
+}
+
+.information .image {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 16px;
+}
+
+.information p {
+    width: 150px;
+    margin-top: 8px;
+}
+
+.information .cards {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    flex-wrap: wrap;
+}
