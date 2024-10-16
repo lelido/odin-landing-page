@@ -5,6 +5,14 @@ body {
     margin: 0;
 }
 
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    padding: 8px 32px;
+    border-radius: 8px;
+}
+
 .section {
     padding: 0 200px;
 }
@@ -61,13 +69,8 @@ body {
 
 .hero button {
     align-self: flex-end;
-    background-color: #3882F6;
-    color: #F9FAF8;
-    font-size: 18px;
     margin-top: 8px;
-    padding: 8px 32px;
     border: none;
-    border-radius: 8px;
 }
 
 .hero .image {
@@ -130,4 +133,36 @@ body {
     text-align: right;
     margin-top: 8px;
     margin-bottom: 0;
+}
+
+.cta {
+    margin: 100px 0;
+}
+
+.cta .banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 8px;
+    padding: 60px 120px;
+}
+
+.cta .maintext {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.cta .subtext {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.cta button {
+    flex-shrink: 0;
+    border: 2px solid #E5E7EB;
 }
