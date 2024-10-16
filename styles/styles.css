@@ -110,3 +110,24 @@ body {
     gap: 48px;
     flex-wrap: wrap;
 }
+
+.quote {
+    padding: 125px 300px 100px 300px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+.quote .text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    margin: 0;
+}
+
+.quote .author {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: right;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
