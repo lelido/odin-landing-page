@@ -94,7 +94,8 @@ button {
 }
 
 .cards-title,
-.card-subtext {
+.card-subtext,
+.quote {
     color: #1F2937;
 }
 
@@ -127,4 +128,31 @@ button {
     text-align: center;
     margin-top: 8px;
     font-size: 18px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding-top: 128px;
+    padding-bottom: 128px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-text,
+.quote-author {
+    width: 784px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: 900;
+    text-align: right;
+    margin-right: 72px;
 }
