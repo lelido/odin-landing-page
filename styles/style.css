@@ -20,6 +20,11 @@ button {
     display: flex;
     align-items: center;
     gap: 16px;
+}
+
+.header,
+.hero,
+.cards {
     padding-left: 196px;
     padding-right: 196px;
 }
@@ -86,4 +91,40 @@ button {
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
+}
+
+.cards-title,
+.card-subtext {
+    color: #1F2937;
+}
+
+.cards-title {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin: 48px 0px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 56px;
+}
+
+.card {
+    width: 172px;
+    flex-shrink: 0;
+    padding-bottom: 112px;
+}
+
+.card-image {
+    height: 172px;
+    border: 4px solid #3882F6;
+    border-radius: 16px;
+}
+
+.card-subtext {
+    text-align: center;
+    margin-top: 8px;
+    font-size: 18px;
 }
