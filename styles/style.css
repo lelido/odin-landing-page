@@ -10,6 +10,7 @@ body {
 
 .logo,
 .hero,
+.cta-title,
 button {
     color: #F9FAF8;
 }
@@ -42,6 +43,7 @@ button {
 .header ul,
 .hero-subtext,
 .hero-image,
+.cta-subtext,
 a {
     font-size: 18px;
     color: #E5E7EB;
@@ -155,4 +157,29 @@ button {
     font-weight: 900;
     text-align: right;
     margin-right: 72px;
+}
+
+.cta {
+    background-color: #3882F6;
+    border-radius: 8px;
+    margin: 96px 196px;
+    padding: 48px 128px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+.cta-title {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.cta-subtext {
+    font-weight: 300;
+}
+
+.cta button {
+    border: 2px solid #F9FAF8;
+    flex-shrink: 0;
 }
