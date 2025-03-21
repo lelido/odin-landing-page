@@ -73,6 +73,10 @@ a {
     padding-bottom: 128px;
 }
 
+.hero-text {
+    flex-basis: 600px;
+}
+
 .hero-title {
     font-size: 48px;
     font-weight: 900;
@@ -166,10 +170,16 @@ button {
 }
 
 .cta {
+    display: flex;
+    justify-content: center;
+    margin: 96px 196px;
+}
+
+.cta-info {
     background-color: #3882F6;
     border-radius: 8px;
-    margin: 96px 196px;
     padding: 48px 128px;
+    flex-basis: 800px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -182,7 +192,7 @@ button {
 }
 
 .cta-subtext {
-    font-weight: 300;
+    font-weight: 350;
 }
 
 .cta button {
