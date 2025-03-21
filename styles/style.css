@@ -11,13 +11,19 @@ body {
 .logo,
 .hero,
 .cta-title,
+.footer,
 button {
     color: #F9FAF8;
 }
 
 .header,
-.hero {
+.hero,
+.footer {
     background-color: #1F2937;
+}
+
+.header,
+.hero {
     display: flex;
     align-items: center;
     gap: 16px;
@@ -182,4 +188,11 @@ button {
 .cta button {
     border: 2px solid #F9FAF8;
     flex-shrink: 0;
+}
+
+.footer {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 350;
+    padding: 40px 0;
 }
